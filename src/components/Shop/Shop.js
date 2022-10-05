@@ -15,7 +15,7 @@ const Shop = (props) => {
     }, []);
 
     const handleAddToCart = (product) => {
-        // cart.push(product);
+        // do not do this: cart.push(product);
         const newCart = [...cart, product];
         setCart(newCart);
     }
